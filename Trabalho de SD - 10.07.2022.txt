@@ -1,0 +1,57 @@
+Disciplina: Sistemas Distribuídos
+Professor: Ernesto Massa
+Equipe: Adeonita Souza e Davi Barbosa
+
+Trabalho de implementação com middleware
+Implementação: Java RMI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aplicação composta por 2 programas (Cliente x Servidor)
+Servidor cria objetos remotos e faz referencia a eles
+Clientes invocam os métodos e objetos.
+
+
+
+
+
+
+
+
+
+Funcionalidade do programa
+1º - O programa deverá ser capaz de imprimir os planos com valores (mensal e diário)
+2º - Deverá calcular o valor proporcional 
+3º - O proporcional é calculado quando o cliente contrata o serviço e a data escolhida por ele para pagamento não completa um mês;
+4º - Datas: 05,10,15,20,25
+5º - Mês da instalação e Data da instalação, Data de pagamento, Plano.
+
+Planos - Mensal - Diária
+20Mbps - R$49,90 - R$1,66
+25Mbps - R$59,90 - R$1,99
+30Mbps - R$69,90 - R$2,33
+40Mbps - R$74,90 - R$2,49
+100Mbps - R$89,90 - R$2,96
+200Mbps - R$99,90 - R$3,33
+400Mbps - R$149,90 - R$4,99
+
+P.S. Essa calculadora existe, foi desenvolvida no Java Swing(widget toolkit GUI para criar janela).
+
+0 - testar sem o servidor up
+1 - rmic projetojavarmi.
+2 - javac projetojavarmi\*.java - compilando o programa dentro da pasta src;
+3 - java projetojavarmi.CalculadoraServer - sobe o servidor dentro da pasta src;
+4 - java projetojavarmi.CalculadoraClient - sobe o cliente dentro da pasta src;
